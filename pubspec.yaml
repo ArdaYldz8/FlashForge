@@ -1,0 +1,67 @@
+name: flashforge
+description: AI-powered flashcard app using Hugging Face models
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.3.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # UI
+  cupertino_icons: ^1.0.5
+  google_fonts: ^4.0.4
+  flutter_svg: ^2.0.5
+  fl_chart: ^0.62.0
+  
+  # State Management
+  flutter_riverpod: ^2.3.6
+  
+  # Firebase
+  firebase_core: ^2.13.0
+  firebase_auth: ^4.6.1
+  cloud_firestore: ^4.7.1
+  firebase_storage: ^11.2.1
+  firebase_analytics: ^10.4.1
+  
+  # Local Storage
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  
+  # HTTP and API
+  dio: ^5.1.2
+  http: ^0.13.6
+  
+  # File Handling
+  file_picker: ^5.3.1
+  image_picker: ^0.8.7+5
+  pdf: ^3.10.1
+  
+  # Utilities
+  path_provider: ^2.0.15
+  connectivity_plus: ^4.0.1
+  share_plus: ^7.0.1
+  url_launcher: ^6.1.11
+  intl: ^0.18.1
+  
+  # Localization
+  flutter_localizations:
+    sdk: flutter
+  
+  # ML/AI
+  tflite_flutter: ^0.10.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+  build_runner: ^2.4.4
+  hive_generator: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/

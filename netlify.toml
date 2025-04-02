@@ -1,0 +1,11 @@
+[build]
+  command = "flutter build web --release"
+  publish = "build/web"
+
+[build.environment]
+  NODE_VERSION = "16"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
