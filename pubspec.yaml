@@ -50,8 +50,8 @@ dependencies:
   flutter_localizations:
     sdk: flutter
   
-  # ML/AI
-  tflite_flutter: ^0.10.1
+  # ML/AI (Optional - comment this out if causing issues)
+  # tflite_flutter: ^0.10.1
 
 dev_dependencies:
   flutter_test:
